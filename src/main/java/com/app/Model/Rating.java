@@ -6,7 +6,7 @@ public class Rating {
     private int rating;
     private String comment;
 
-    // Constructors
+
     public Rating() {}
 
     public Rating(String userId, int rating, String comment) {
@@ -15,7 +15,7 @@ public class Rating {
         this.comment = comment;
     }
 
-    // Getters and setters
+
     public String getUserId() {
         return userId;
     }

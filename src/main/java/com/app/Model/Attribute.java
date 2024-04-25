@@ -5,7 +5,7 @@ public class Attribute {
 	    private String key;
 	    private String value;
 
-	    // Constructors
+	   
 	    public Attribute() {}
 
 	    public Attribute(String key, String value) {
@@ -13,7 +13,7 @@ public class Attribute {
 	        this.value = value;
 	    }
 
-	    // Getters and setters
+	   
 	    public String getKey() {
 	        return key;
 	    }

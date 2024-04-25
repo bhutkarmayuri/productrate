@@ -5,7 +5,7 @@ public class Avaibility {
 	private boolean inStock;
     private int quantity;
 
-    // Constructors
+  
     public Avaibility() {}
 
     public Avaibility(boolean inStock, int quantity) {
@@ -13,9 +13,10 @@ public class Avaibility {
         this.quantity = quantity;
     }
 
-    // Getters and setters
+    
     public boolean isInStock() {
         return inStock;
+        
     }
 
     public void setInStock(boolean inStock) {
